@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=VT323&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.header {
+  background-color: #a5e9ff;
+  min-height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-bottom: 2px solid #0000001a;
+}
+
+.my-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 6rem;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* border: 2px solid #000000; */
+  margin-bottom: 10px;
+}
+
+.my-degree {
+  font-size: 2rem;
+  color: #000000;
+  /* border: 2px solid #000000; */
+  margin-top: 10px;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  /* min-height: 64vh; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+  /* border: 2px solid #000000; */
+}
+.my-description {
+  font-size: 1.6rem;
+  color: #000000;
+  /* border: 2px solid #000000; */
+  margin-top: 20px;
+  font-family: 'VT323', monospace;
+  
+}
+.personal-info b{
+    font-family: 'VT323', monospace;
+    font-size: 1.9rem;
+}
+.skills{
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+}
+.my-skills-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+.my-description-skills {
+  font-size: 1.6rem;
+  color: #000000;
+  /* border: 2px solid #000000; */
+  margin-top: 20px;
+  font-family: 'VT323', monospace;
+  padding-left: 90px;
+}
+
+.my-description-projects {
+  font-size: 1.6rem;
+  color: #000000;
+  /* border: 2px solid #000000; */
+  margin-top: 20px;
+  font-family: 'VT323', monospace;
+}
+
+.my-projects-title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.my-skills-title{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
